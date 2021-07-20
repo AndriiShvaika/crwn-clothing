@@ -1,9 +1,10 @@
 import Directory from "../../components/directory/directory.component";
 
-import { HomePageContainer } from "./homepage.styles";
+import { HomePageContainer, CrwnClothingStyles } from "./homepage.styles";
 
 const HomePage = () => (
   <HomePageContainer>
+    <CrwnClothingStyles>CRWN CLOTHING</CrwnClothingStyles>
     <Directory />
   </HomePageContainer>
 );

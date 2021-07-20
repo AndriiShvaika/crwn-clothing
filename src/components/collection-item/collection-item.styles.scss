@@ -1,10 +1,15 @@
 .collection-item {
-  width: 22vw;
+  width: 245px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   height: 350px;
   align-items: center;
   position: relative;
+
+  .name {
+    font-size: 20px;
+  }
 
   .image {
     width: 100%;
