@@ -17,6 +17,14 @@ export const HeaderContainer = styled.div`
     font-size: 20px;
   }
 
+  @media screen and (max-width: 560px) {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background-color: white;
+    height: 80px;
+  }
+
   @media screen and (max-width: 480px) {
     font-size: 18px;
   }
@@ -66,8 +74,11 @@ export const OptionLink = styled(Link)`
     padding: 0 10px;
   }
 
+  @media screen and (max-width: 560px) {
+    padding-bottom: 20px;
+  }
+
   @media screen and (max-width: 480px) {
-    padding: 0 5px;
-    margin-top: 6px;
+    padding: 0 5px 18px;
   }
 `;

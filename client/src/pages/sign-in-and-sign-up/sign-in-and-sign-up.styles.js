@@ -14,4 +14,8 @@ export const SignInAndSignUpContainer = styled.div`
       margin-bottom: 80px;
     }
   }
+
+  @media screen and (max-width: 360px) {
+    padding: 0 10px;
+  }
 `;

@@ -21,9 +21,12 @@ export const ShoppingIconContainer = styled(ShoppingIconSVG)`
     margin-top: 2px;
   }
 
+  @media screen and (max-width: 560px) {
+    margin-bottom: 20px;
+  }
+
   @media screen and (max-width: 480px) {
-    width: 26px;
-    margin-top: 3px;
+    width: 28px;
   }
 `;
 
@@ -35,5 +38,13 @@ export const ItemCountContainer = styled.span`
 
   @media screen and (max-width: 800px) {
     bottom: 8px;
+  }
+
+  @media screen and (max-width: 560px) {
+    margin-bottom: 11px;
+  }
+
+  @media screen and (max-width: 480px) {
+    margin-left: 1px;
   }
 `;
