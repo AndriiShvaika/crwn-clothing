@@ -41,10 +41,11 @@ export const ItemCountContainer = styled.span`
   }
 
   @media screen and (max-width: 560px) {
-    margin-bottom: 11px;
+    margin-bottom: 10px;
   }
 
   @media screen and (max-width: 480px) {
     margin-left: 1px;
+    margin-bottom: 11px;
   }
 `;

@@ -30,6 +30,16 @@ export const CollectionItemContainer = styled.div`
 
   @media screen and (max-width: 700px) {
     width: 43vw;
+
+    &:hover {
+      .image {
+        opacity: 1;
+      }
+
+      button {
+        opacity: 1;
+      }
+    }
   }
 `;
 

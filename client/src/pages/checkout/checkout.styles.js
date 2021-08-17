@@ -60,7 +60,7 @@ export const TotalContainer = styled.div`
   font-size: 36px;
 
   @media screen and (max-width: 700px) {
-    font-size: inherit;
+    font-size: 24px;
   }
 `;
 

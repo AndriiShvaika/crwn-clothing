@@ -19,9 +19,3 @@ export const ItemDetailsContainer = styled.div`
   justify-content: center;
   padding: 10px 20px;
 `;
-
-export const RemoveButtonContainer = styled.div`
-  cursor: pointer;
-  padding-top: 25px;
-  padding-right: 20px;
-`;
