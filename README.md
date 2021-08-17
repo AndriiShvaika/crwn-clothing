@@ -1,6 +1,6 @@
 ![Image alt](https://github.com/AndriiShvaika/crwn-clothing/blob/main/client/src/assets/main-image.png)
 
-#CRWN Clothing e-commerce app
+# CRWN Clothing e-commerce app
 
 You can see the app by the link: https://crwn-clothing-shvaika.herokuapp.com/ (please wait 15 seconds to Heroku server starts)
 
