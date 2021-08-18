@@ -28,5 +28,6 @@ The project was made using these technologies:
 - Flexbox
 - Grid Layout
 - Stripe payment
+- Firebase database
 - Simple server on Node.js
 - Responsive and fluid layout
